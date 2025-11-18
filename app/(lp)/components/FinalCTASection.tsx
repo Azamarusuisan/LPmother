@@ -131,8 +131,10 @@ export default function FinalCTASection() {
 
             <div className="space-y-4">
               <a
-                href="#"
-                className="inline-flex items-center justify-center w-full sm:w-auto px-10 py-5 text-xl font-bold text-white bg-green-600 rounded-xl hover:bg-green-700 transition-all shadow-2xl hover:shadow-green-500/50 hover:scale-105 duration-200"
+                href="https://lin.ee/CsWXGzA"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center w-full sm:w-auto px-8 sm:px-10 py-4 sm:py-5 text-lg sm:text-xl font-bold text-white bg-green-600 rounded-xl hover:bg-green-700 transition-all shadow-2xl hover:shadow-green-500/50 hover:scale-105 duration-200"
               >
                 <svg
                   className="w-6 h-6 mr-3"

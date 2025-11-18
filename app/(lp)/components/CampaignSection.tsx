@@ -155,8 +155,10 @@ export default function CampaignSection() {
             迷っている段階でも、まずはお気軽にご相談ください
           </p>
           <a
-            href="#cta"
-            className="inline-flex items-center justify-center px-8 py-4 text-lg font-semibold text-white bg-green-600 rounded-lg hover:bg-green-700 transition-all shadow-lg hover:shadow-xl hover:scale-105 duration-200"
+            href="https://lin.ee/CsWXGzA"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center justify-center w-full sm:w-auto px-6 sm:px-8 py-3 sm:py-4 text-base sm:text-lg font-semibold text-white bg-green-600 rounded-lg hover:bg-green-700 transition-all shadow-lg hover:shadow-xl hover:scale-105 duration-200"
           >
             公式LINEで詳細を確認する
             <svg
