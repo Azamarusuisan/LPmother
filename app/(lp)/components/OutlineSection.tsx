@@ -9,8 +9,8 @@ export default function OutlineSection() {
           <div className="w-20 h-1 bg-green-600 mx-auto" />
         </div>
 
-        <div className="grid lg:grid-cols-2 gap-8">
-          {/* Left: 店舗概要 */}
+        <div className="max-w-2xl mx-auto">
+          {/* 店舗概要 */}
           <div className="bg-green-50 border border-green-200 rounded-xl p-8">
             <h3 className="text-2xl font-bold text-green-600 mb-6 pb-4 border-b border-green-200">
               店舗概要
@@ -111,76 +111,6 @@ export default function OutlineSection() {
                 </dd>
               </div>
             </dl>
-          </div>
-
-          {/* Right: 団体概要 */}
-          <div className="bg-green-50 border border-green-200 rounded-xl p-8">
-            <h3 className="text-2xl font-bold text-green-600 mb-6 pb-4 border-b border-green-200">
-              サポート団体概要
-            </h3>
-
-            <dl className="space-y-4">
-              <div className="grid grid-cols-3 gap-4">
-                <dt className="text-gray-600 text-sm col-span-1">団体名</dt>
-                <dd className="text-gray-900 font-medium col-span-2">
-                  一般社団法人
-                  <br />
-                  全国VR推進協会
-                </dd>
-              </div>
-
-              <div className="grid grid-cols-3 gap-4">
-                <dt className="text-gray-600 text-sm col-span-1">所在地</dt>
-                <dd className="text-gray-900 col-span-2 text-sm">
-                  〒251-0035
-                  <br />
-                  神奈川県藤沢市片瀬海岸2-8-7
-                  <br />
-                  KANOA KATASE COAST 1F
-                </dd>
-              </div>
-
-              <div className="grid grid-cols-3 gap-4">
-                <dt className="text-gray-600 text-sm col-span-1">
-                  代表理事
-                </dt>
-                <dd className="text-gray-900 font-medium col-span-2">
-                  藤原 憲市
-                </dd>
-              </div>
-
-              <div className="grid grid-cols-3 gap-4">
-                <dt className="text-gray-600 text-sm col-span-1">
-                  事業内容
-                </dt>
-                <dd className="text-gray-900 col-span-2 text-sm">
-                  VRの普及促進、導入支援、研修・セミナー、コンサルティング業務
-                </dd>
-              </div>
-
-              <div className="grid grid-cols-3 gap-4 pt-4 border-t border-green-200">
-                <dt className="text-gray-600 text-sm col-span-1">
-                  公式サイト
-                </dt>
-                <dd className="text-green-600 col-span-2 break-all text-sm">
-                  <a
-                    href="https://zenkoku-vr.com/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="hover:text-green-700 transition-colors hover:underline"
-                  >
-                    zenkoku-vr.com
-                  </a>
-                </dd>
-              </div>
-            </dl>
-
-            <div className="mt-8 p-4 bg-green-100/50 border border-green-300 rounded-lg">
-              <p className="text-sm text-gray-700 leading-relaxed">
-                本プログラムは、全国VR推進協会の支援のもと、
-                デジタル技術とリアル拠点を融合した新しい占い師育成モデルとして運営されています。
-              </p>
-            </div>
           </div>
         </div>
       </div>

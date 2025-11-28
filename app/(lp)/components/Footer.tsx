@@ -79,26 +79,9 @@ export default function Footer() {
 
           {/* Divider */}
           <div className="border-t border-green-200 pt-6">
-            {/* Support Organization */}
-            <div className="mb-4">
-              <p className="text-sm text-gray-600 mb-2">
-                プログラムサポート
-              </p>
-              <p className="text-gray-700 font-medium">
-                一般社団法人 全国VR推進協会
-              </p>
-              <a
-                href="#"
-                className="text-sm text-green-600 hover:text-green-700 transition-colors"
-              >
-                協会公式サイト
-              </a>
-            </div>
-
             {/* Copyright */}
             <p className="text-sm text-gray-500">
-              © 2025 一般社団法人 全国VR推進協会 / 東銀座の母 ena. All rights
-              reserved.
+              © 2025 東銀座の母 ena. All rights reserved.
             </p>
           </div>
         </div>

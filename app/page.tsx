@@ -4,7 +4,6 @@ import BackgroundSection from "./(lp)/components/BackgroundSection";
 import PointsSection from "./(lp)/components/PointsSection";
 import CampaignSection from "./(lp)/components/CampaignSection";
 import MessageSection from "./(lp)/components/MessageSection";
-import SupportCommentSection from "./(lp)/components/SupportCommentSection";
 import MediaSection from "./(lp)/components/MediaSection";
 import OutlineSection from "./(lp)/components/OutlineSection";
 import FinalCTASection from "./(lp)/components/FinalCTASection";
@@ -19,7 +18,6 @@ export default function Home() {
       <PointsSection />
       <CampaignSection />
       <MessageSection />
-      <SupportCommentSection />
       <MediaSection />
       <OutlineSection />
       <FinalCTASection />
